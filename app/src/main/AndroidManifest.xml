@@ -18,7 +18,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Ej_3_activity1" />
-        <activity android:name=".Ej_4_activity"></activity>
+        <activity android:name=".Ej_4_activity1" />
+        <activity android:name=".Ej_5_activity1" />
+        <activity android:name=".Ej_9_activity1"></activity>
     </application>
 
 </manifest>

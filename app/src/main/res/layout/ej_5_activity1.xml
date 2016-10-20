@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    android:layout_gravity="center"
+    android:background="@xml/aspecto">
+    <TableRow android:id="@+id/fila1"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"
+            android:layout_span="5"/>
+    </TableRow>
+    <TableRow android:id="@+id/fila2"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"
+            android:layout_span="2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow android:id="@+id/fila3"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+    </TableRow>
+    <TableRow android:id="@+id/fila4"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"
+            android:layout_span="3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+    </TableRow>
+    <TableRow android:id="@+id/fila5"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text=" "
+            android:background="@xml/aspecto"/>
+    </TableRow>
+</TableLayout>
