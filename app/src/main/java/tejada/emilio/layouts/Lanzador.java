@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 
 
 public class Lanzador extends AppCompatActivity {
-    int NUM_EJERCICIOS = 2;
+    int NUM_EJERCICIOS = 3;
     int EJERCICIO_INICIAL=1;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
