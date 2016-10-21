@@ -20,7 +20,23 @@
         <activity android:name=".Ej_3_activity1" />
         <activity android:name=".Ej_4_activity1" />
         <activity android:name=".Ej_5_activity1" />
-        <activity android:name=".Ej_9_activity1"></activity>
+        <activity android:name=".Ej_9_activity1" />
+        <activity android:name=".Ej_6_activity1" />
+        <activity android:name=".Ej_7_activity1" />
+        <activity android:name=".Ej_8_activity1" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".Ej_10_activity1"></activity>
     </application>
 
 </manifest>
