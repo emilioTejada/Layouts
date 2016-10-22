@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/buttonMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mostrar"
+            android:text="MOSTRAR"/>
+        <Button
+            android:id="@+id/buttonOcultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ocultar"
+            android:text="OCULTAR"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/animado"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00ffff"
+        android:gravity="center"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ANIMACIÓN EN JAVA"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

@@ -36,7 +36,11 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
-        <activity android:name=".Ej_10_activity1"></activity>
+        <activity android:name=".Ej_10_activity1" />
+        <activity android:name=".Ej_11_activity1" />
+        <activity android:name=".Ej_12_activity1" />
+        <activity android:name=".Ej_13_activity1" />
+        <activity android:name=".Ej_14_activity1"></activity>
     </application>
 
 </manifest>
